@@ -1,0 +1,12 @@
+[book]
+authors = ["Yehuda Katz"]
+language = "en"
+multilingual = false
+title = "Starbeam Reactivity"
+
+[build]
+build-dir = "docs"
+
+[output.html]
+mathjax-support = true
+additional-js = ["theme/handlebars.js", "theme/hl-custom.js"]
